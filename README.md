@@ -15,6 +15,7 @@ A página posiciona o Grupo Silva como infraestrutura de receita: diagnóstico d
 - Gong: revenue intelligence, coaching e forecast com evidência.
 - Virgin / Richard Branson: experiência de marca aplicada à operação.
 - Ogilvy: clareza, prova e criatividade a serviço da compreensão.
+- Russell Brunson / ClickFunnels: aquisição, conversão e ascensão em funil.
 
 ## Publicação
 

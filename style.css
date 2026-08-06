@@ -19,7 +19,7 @@
 .checklist span{grid-row:span 2;color:var(--lime);font:11px var(--mono)}
 .checklist b{font-size:14px}
 .checklist small{color:var(--muted);font-size:12px}
-.references{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);margin-top:70px}
+.references{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);margin-top:70px}
 .references>div{background:var(--bg);padding:20px 18px;min-height:150px;display:flex;flex-direction:column;gap:13px}
 .references span{font:10px var(--mono);color:var(--lime)}
 .references a{color:#e8ebe4;font-size:13px;line-height:1.25;text-decoration:none}
@@ -33,21 +33,22 @@
 @media(max-width:900px){.references-intro{display:block;margin-top:78px}.references-intro p:last-child{margin-top:28px;max-width:560px}}
 @media(max-width:560px){.plays-grid,.references{grid-template-columns:1fr}.plays-grid article{min-height:230px}.plays-grid h3{margin-top:28px}.references{margin-top:50px}.references>div{min-height:125px}.references-intro{padding:30px 0 34px;margin-top:60px}.references-intro h2{font-size:13vw}.references-intro p:last-child{font-size:13px}}
 
-.hero-copy{max-width:980px}.hero h1{max-width:980px}
-.reference-card{background:var(--bg);padding:25px 21px 22px;min-height:425px;display:flex;flex-direction:column;gap:15px}
-.reference-top{display:flex;justify-content:space-between;align-items:flex-start;min-height:66px;border-bottom:1px solid var(--line);padding-bottom:17px}
+.hero-copy{max-width:none}.hero h1{max-width:none;font-size:clamp(42px,5.4vw,82px);white-space:nowrap}
+.reference-card{background:var(--bg);padding:31px 29px 28px;min-height:458px;display:flex;flex-direction:column;gap:18px}
+.reference-top{display:flex;justify-content:space-between;align-items:flex-start;min-height:74px;border-bottom:1px solid var(--line);padding-bottom:19px}
 .reference-top>span{font:9px var(--mono);color:var(--lime);letter-spacing:.08em}
-.reference-logo{font-family:var(--display);font-size:27px;line-height:.9;letter-spacing:-.07em;color:var(--text);text-align:right}
+.reference-logo{font-family:var(--display);font-size:30px;line-height:.9;letter-spacing:-.07em;color:var(--text);text-align:right}
 .reference-logo span{font:inherit;color:var(--lime)}
-.logo-acquisition{font-weight:500}.logo-acquisition span{font-size:.58em}.logo-hubspot{font-weight:800;letter-spacing:-.09em}.logo-gong{font-weight:700;letter-spacing:-.1em}.logo-virgin{font-family:var(--serif);font-style:italic;font-size:32px}.logo-ogilvy{font-weight:500}
+.logo-acquisition{font-weight:500}.logo-acquisition span{font-size:.58em}.logo-hubspot{font-weight:800;letter-spacing:-.09em}.logo-gong{font-weight:700;letter-spacing:-.1em}.logo-virgin{font-family:var(--serif);font-style:italic;font-size:32px}.logo-ogilvy{font-weight:500}.logo-clickfunnels{font-weight:800;letter-spacing:-.09em}.logo-clickfunnels span{color:var(--lime)}
 .references a{font-size:16px;line-height:1.12;letter-spacing:-.03em}.references a span{font-size:16px;margin-left:4px}
 .reference-card p{color:var(--muted);font-size:12px;line-height:1.45;margin:0}
 .reference-stats{border-top:1px solid var(--line);display:grid;gap:10px;padding-top:14px;margin-top:auto}
 .reference-stats b{color:var(--muted);font:10px var(--mono);line-height:1.35;text-transform:uppercase;letter-spacing:.02em}
 .reference-stats strong{display:block;color:var(--text);font:600 22px var(--display);letter-spacing:-.06em;text-transform:none}
 .references small{font-size:10px;line-height:1.35}.source-note{opacity:.75}
-.references-method{display:grid;grid-template-columns:1.3fr repeat(5,1fr);gap:1px;background:var(--line);margin-top:1px}
+.references-method{display:grid;grid-template-columns:1.25fr repeat(6,minmax(0,1fr));gap:1px;background:var(--line);margin-top:1px}
 .references-method>*{background:var(--panel);padding:18px 15px;color:var(--muted);font:10px var(--mono);line-height:1.35}
 .references-method b{color:var(--lime);text-transform:uppercase;letter-spacing:.06em}
 @media(max-width:900px){.references{grid-template-columns:repeat(2,1fr)}.references-method{grid-template-columns:repeat(3,1fr)}.references-method b{grid-column:1/-1}}
 @media(max-width:560px){.references{grid-template-columns:1fr}.reference-card{min-height:365px}.references-method{grid-template-columns:1fr 1fr}.references-method b{grid-column:1/-1}}
+@media(max-width:900px){.hero h1{white-space:normal;font-size:clamp(46px,8.6vw,72px)}}
